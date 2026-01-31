@@ -33,7 +33,7 @@ A full-stack file sharing application that allows users to upload files, generat
 ## 📁 Project Structure
 
 ```
-Sharing-File-main/
+Sharing-App/
 ├── Server/
 │   ├── configs/         # Database, Cloudinary & mailer config
 │   ├── models/          # Mongoose schemas (File, URL)
