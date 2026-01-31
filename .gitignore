@@ -1,0 +1,7 @@
+# Ignore server dependencies and secrets
+/Server/node_modules/
+/Server/.env
+/Server/uploads/
+# Ignore server dependencies and secrets
+/client/node_modules/
+/client/.env

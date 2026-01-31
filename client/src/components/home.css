@@ -1,0 +1,92 @@
+/* home.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #d0eefd, #ffffff);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-container {
+  width: 90%;
+  max-width: 600px;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.home-title {
+  font-size: 2rem;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.home-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.home-input,
+.home-button,
+.home-copy-button {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  outline: none;
+}
+
+.home-input {
+  border: 1px solid #ccc;
+  transition: 0.3s ease;
+}
+
+.home-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+.home-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.home-button:disabled {
+  background-color: #b3d6ff;
+  cursor: not-allowed;
+}
+
+.home-button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.home-link-section {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.home-link {
+  color: #007bff;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.home-copy-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.home-copy-button:hover {
+  background-color: #1e7e34;
+}
